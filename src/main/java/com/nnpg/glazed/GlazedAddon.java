@@ -46,6 +46,7 @@ public static final Category pvp = new Category("Glazed PVP", new ItemStack(Item
         Modules.get().add(new AutoShulkerOrder()); // done
         Modules.get().add(new AutoOrder()); //done
         Modules.get().add(new HideScoreboard());
+         Modules.get().add(new LightDebugger());
         Modules.get().add(new CrystalMacro());
         Modules.get().add(new AHSell());
         Modules.get().add(new AnchorMacro());
